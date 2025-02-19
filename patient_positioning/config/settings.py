@@ -1,0 +1,28 @@
+# config/settings.py
+
+# Camera settings
+CAMERA_INDEX = 0
+
+# Detection settings
+MIN_DETECTION_CONFIDENCE = 0.5
+MIN_TRACKING_CONFIDENCE = 0.5
+MAX_NUM_FACES = 1
+
+# Deviation thresholds
+DEVIATION_THRESHOLD_LOW = 10
+DEVIATION_THRESHOLD_HIGH = 20
+FACE_RECOGNITION_THRESHOLD = 0.6
+
+# File paths
+DATA_DIR = 'data'
+PATIENTS_DIR = f'{DATA_DIR}/patients'
+PHOTOS_DIR = f'{PATIENTS_DIR}/photos'
+FEATURES_DIR = f'{PATIENTS_DIR}/features'
+LOGS_DIR = f'{PATIENTS_DIR}/logs'
+
+# Colors (BGR format)
+COLOR_GREEN = (0, 255, 0)
+COLOR_YELLOW = (0, 255, 255)
+COLOR_RED = (0, 0, 255)
+COLOR_WHITE = (255, 255, 255)
+COLOR_BLUE = (255, 0, 0)
